@@ -6,6 +6,7 @@ module.exports = {
     'kentcdodds/import',
     'kentcdodds/jest',
     'kentcdodds/react',
+    '@types/jest',
   ],
   rules: {
     // https://github.com/benmosher/eslint-plugin-import/issues/1446
