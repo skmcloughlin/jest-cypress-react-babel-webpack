@@ -1,5 +1,5 @@
 module.exports = {
-  ...require('../test/jest-common'),
+  ...require('./test/jest-common'),
   collectCoverageFrom: ['**/src/**/*.js'],
   coverageThreshold: {
     global: {
@@ -9,10 +9,11 @@ module.exports = {
       lines: 29,
     },
     './src/shared/utils.js': {
-      stataements: 100,
+      statements: 100,
       branches: 80,
       functions: 100,
       lines: 100,
     },
   },
+  projects: ['../test/jest.client.js', '../test'],
 }
