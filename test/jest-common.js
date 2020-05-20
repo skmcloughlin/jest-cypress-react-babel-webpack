@@ -6,7 +6,7 @@ module.exports = {
     'node_modules',
     path.join(__dirname, '../src'),
     'shared',
-    __dirname,
+    path.join(__dirname),
   ],
   moduleNameMapper: {
     '\\.module\\.css$': 'identity-obj-proxy',
